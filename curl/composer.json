@@ -1,0 +1,21 @@
+{
+    "name": "zhang/curl",
+    "description": "curl",
+    "keywords": ["curl", "file"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhang",
+            "email": "1608661575@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "zhang\\curl\\": ["src"]
+        }
+    }
+}
